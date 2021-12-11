@@ -1,0 +1,18 @@
+.backdrop {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+}
+.backdrop.is-hidden .modal {
+	transform: scale(0.5) rotateX(-60deg);
+	background-color: rgba(255, 255, 255, 1);
+}
