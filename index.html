@@ -476,54 +476,54 @@
 		<!--Модальное окно-->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button type="button" class="modal-close" data-modal-close>
-					<svg class="modal-close-icon" width="11" height="11">
+				<button type="button" class="btn-close" data-modal-close>
+					<svg class="btn-close__icon" width="11" height="11">
 						<use href="./images/icons.svg#vector"></use>
 					</svg>
 				</button>
-				<h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+				<h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
 
-		<form action="#" class="backdrop-form" autocomplete="on">
+		<form action="#" autocomplete="on">
 			
-			<label for="user-name" class="modal-contacts-label">Имя</label>
+			<label for="user-name" class="modal__label">Имя</label>
 			<div class="modal-field">
-			<input type="text" name="name" id="user-name" class="modal-input" autofocus required/>
-			<svg class="modal-icon" width="18" height="18">
+			<input type="text" name="name" id="user-name" class="modal-field__input" autofocus required/>
+			<svg class="modal-field__icon" width="18" height="18">
 				<use href="./images/icons.svg#icon-person-black"></use>
 			</svg>
 			</div>
 			
 
 			
-				<label for="user-tel" class="modal-contacts-label">Телефон</label>
+				<label for="user-tel" class="modal__label">Телефон</label>
 				<div class="modal-field">
-					<input type="tel" name="tel" id="user-tel" class="modal-input" autofocus required/>
-					<svg class="modal-icon" width="18" height="18">
+					<input type="tel" name="tel" id="user-tel" class="modal-field__input" autofocus required/>
+					<svg class="modal-field__icon" width="18" height="18">
 						<use href="./images/icons.svg#icon-phone-black"></use>
 					</svg>
 				</div>
 			
 
 			
-				<label for="user-email" class="modal-contacts-label">Почта</label>
+				<label for="user-email" class="modal__label">Почта</label>
 				<div class="modal-field">
-					<input type="email" name="email" id="user-email" class="modal-input" autofocus/>
-					<svg class="modal-icon" width="18" height="18">
+					<input type="email" name="email" id="user-email" class="modal-field__input" autofocus/>
+					<svg class="modal-field__icon" width="18" height="18">
 						<use href="./images/icons.svg#icon-email-black"></use>
 					</svg>
 					</div>
 				
 
-				<div class="modal-comments-container">
-				<label for="modal-comments" class="modal-comments-label">Комментарий</label>
-				<textarea name="comments" id="modal-comments" placeholder="Введите текст" class="modal-comments-text"></textarea>
+				<div class="modal-comments">
+				<label for="modal-comments" class="modal-comments__label">Комментарий</label>
+				<textarea name="comments" id="modal-comments" placeholder="Введите текст" class="modal-comments__text"></textarea>
 				</div>
 
 				
 					<input type="checkbox" name="subscribe" id="subscribe-on" checked class="subscribe-checkbox visually-hidden"/>
-					<label for="subscribe-on" class="modal-checkbox-text"><span class="modal-checkbox"><svg class="modal-checkbox-icon" width="16" height="15">
+					<label for="subscribe-on" class="subscribe-checkbox__text"><span class="subscribe-checkbox__checkbox"><svg class="subscribe-checkbox__icon" width="16" height="15">
 						<use href="./images/icons.svg#icon-checkbox"></use>
-					</svg></span> Соглашаюсь с рассылкой и принимаю<span class="checkbox-text-element">Условия договора</span></label>
+					</svg></span> Соглашаюсь с рассылкой и принимаю<span class="subscribe-checkbox__element">Условия договора</span></label>
 					
 
 				
