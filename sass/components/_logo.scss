@@ -4,12 +4,12 @@
 	font-size: 26px;
 	line-height: 1.19;
 	text-decoration: none;
-	color: #2196f3;
+	color: $accent-color;
 	&--black {
-		color: #212121;
+		color: $subtitle-color;
 	}
 	&--white {
-		color: #ffffff;
+		color: $whiteText-color;
 	}
 }
 

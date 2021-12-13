@@ -1,4 +1,5 @@
 .projects-section {
+	background: $predominantBg;
 	padding-bottom: 94px;
 }
 .projects-list {
@@ -31,12 +32,13 @@
 .projects-img {
 	position: relative;
 	overflow: hidden;
-	&__img {
+}
+	.projects-img__img {
 		display: block;
 		max-width: 100%;
 		height: auto;
 	}
-	&__hover {
+	.projects-img__hover {
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -45,15 +47,14 @@
 		transform: translateY(100%);
 		transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 		overflow: auto;
-
-		font-size: 18px;
-		line-height: 1.55;
-		letter-spacing: 0.03em;
-		color: #ffffff;
+        
+		@include text(18px, 1.55, 0.03em);		
+		color: $whiteText-color;
 		background-color: rgba(33, 150, 243, 0.9);
+
 		padding: 63px 24px;
 	}
-}
+
 .projects-list__item:hover .projects-img__hover {
 	transform: translateY(0%);
 }
@@ -62,19 +63,16 @@
 	padding: 20px 24px;
 	width: 370px;
 	background: #ffffff;
-	&__subtitle {
-		font-weight: 700;
-		font-size: 18px;
-		line-height: 2;
-		letter-spacing: 0.06em;
-		color: var(--subtitle-color);
+}
+	.projects-content__subtitle {
+		@include text(18px, 2, 0.06em, 700);		
+		color: $subtitle-color;
+
 		margin-bottom: 4px;
 	}
-	&__text {
-		font-size: 16px;
-		line-height: 1.87;
-		letter-spacing: 0.03em;
-		color: var(--text-color);
+	.projects-content__text {
+		@include text(16px, 1.87, 0.03em);		
+		color: $text-color;
 	}
-}
+
 

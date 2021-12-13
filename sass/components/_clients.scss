@@ -1,10 +1,10 @@
 .clients {
-	background: #ffffff;
+	background: $predominantBg;
 }
 	.clients__title {
 		@include text(36px, 1.17, 0.03em, 700);
 		text-align: center;		
-		color: var(--second-title-color);
+		color: $title-color;
 
 		margin-bottom: 50px;
 	}
@@ -37,8 +37,8 @@
 	
 	&:focus,
 	&:hover {
-		color: #2196f3;
-		border-color: #2196f3;
+		color: $accent-color;
+		border-color: $accent-color;
 	}
 }
 	.clients-list__icon {

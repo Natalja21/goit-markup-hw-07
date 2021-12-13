@@ -1,5 +1,5 @@
 .menu-section {
-	color: #e5e5e5;
+	color: $predominantBg;
 	padding-top: 94px;
 	padding-bottom: 50px;
 }
@@ -22,23 +22,21 @@
 	}
 }
 .portfolio-menu__button {
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
+	@include text(16px, 1.62, 0.03em, 500);	
 	text-align: center;
-	letter-spacing: 0.03em;
-	background: #f5f4fa;
-	color: var(--buttons-color);
+	color: $subtitle-color;
+	background: $secondBg;	
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	padding: 6px 22px;
+	
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
+	padding: 6px 22px;
 	
 	&:focus,
 	&:hover {
-		background-color: #2196f3;
-		color: #ffffff;
+		background-color: $accent-color;
+		color: $whiteText-color;
 	}
 }

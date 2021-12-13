@@ -1,5 +1,5 @@
 .features {
-	background: #ffffff;
+	background: $predominantBg;
 }
 .features-list {
 	display: flex;
@@ -23,11 +23,11 @@
 .features-list__subtitle {
 	@include text(14px, 1.14, 0.03em, 700);
 	text-transform: uppercase;
-	color: var(--subtitle-color);
+	color: $subtitle-color;
 
 	margin-bottom: 10px;
 }
 .features-list__text {
 	@include text(14px, 1.71, 0.03em);
-	color: var(--text-color);
+	color: $text-color;
 }
