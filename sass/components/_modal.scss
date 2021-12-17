@@ -189,7 +189,7 @@
 	@include text(16px, 1.87, 0.06em, 700);	
 	text-align: center;
 	align-items: center;
-	color: var(--second-buttons-color);	
+	color: $whiteText-color;	
 	background-color: #2196f3;	
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
