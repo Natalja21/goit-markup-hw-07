@@ -32,7 +32,7 @@
 	margin-bottom: 10px;
 }
 .team-list__text {
-	@include text(16px, 1.19, 0.03em);
+	@include text(16px, 1.19, 0.03em, 400);
 	font-size: 16px;
 	text-align: center;
 	color: $text-color;

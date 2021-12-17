@@ -28,6 +28,6 @@
 	margin-bottom: 10px;
 }
 .features-list__text {
-	@include text(14px, 1.71, 0.03em);
+	@include text(14px, 1.71, 0.03em, 400);
 	color: $text-color;
 }

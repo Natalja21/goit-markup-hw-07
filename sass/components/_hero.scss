@@ -22,7 +22,7 @@
 .hero__title {
 	color: $heroTitle-color;
 	font-weight: 900;
-	@include text(44px, 1.36, 0.06em);
+	@include text(44px, 1.36, 0.06em, 400);
 	text-align: center;
 	text-transform: uppercase;
 
@@ -34,7 +34,7 @@
 .hero__button {
 	font-family: inherit;
 	font-weight: 700;
-	@include text(16px, 1.87, 0.06em);
+	@include text(16px, 1.87, 0.06em, 400);
 	align-items: center;
 	color: $btnText-color;
 	background-color: $bgBtn;

@@ -48,7 +48,7 @@
 		transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 		overflow: auto;
         
-		@include text(18px, 1.55, 0.03em);		
+		@include text(18px, 1.55, 0.03em, 400);		
 		color: $whiteText-color;
 		background-color: rgba(33, 150, 243, 0.9);
 
@@ -71,7 +71,7 @@
 		margin-bottom: 4px;
 	}
 	.projects-content__text {
-		@include text(16px, 1.87, 0.03em);		
+		@include text(16px, 1.87, 0.03em, 400);		
 		color: $text-color;
 	}
 
